@@ -1,0 +1,36 @@
+body{
+   font-family: sans-serif;
+}
+h2{
+   font-weight: 100;
+}
+.title-img{
+   width: 30%;
+}
+.header{
+   width: 100%;
+   background-color: #fa2111;
+   color: white;
+   font-size: 15px;
+   text-align: center;
+   font-weight: 900;
+}
+.title{
+   text-align: center;
+}
+.main{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.sub-content{
+   font-size: 12px;
+   width: 20%;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-content{
+   width: 40%;
+   /*border: 3px solid #fa2111;*/
+   border-radius: 10px;
+}
