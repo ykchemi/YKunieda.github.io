@@ -5,6 +5,12 @@ body{
    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "MS Pゴシック", "MS PGothic", sans-serif;
 }
 
+a{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
 .mainmenu{
    top: 0;
    left: 0;
@@ -19,15 +25,25 @@ body{
    list-style: none;
    font-size: 0px;
    padding-left: 0px;
-   padding-top: 15px;
+   padding-top: 0px;
    margin-top: 0;
+   background-color: #16a7e0;
 }
 .nav-menu li{
    width: 20%;
    display: inline-block;
    text-align: center;
    position: relative;
+   padding: 0;
+   font-size: 20px;
+   margin: 0;
 }
+
+.nav-menu li:hover{
+   background-color: white;
+   transition: 1s;
+}
+
 .nyan{
    position: absolute;
    display: block;
@@ -35,14 +51,20 @@ body{
 .hutuu{
    text-align: center;
    display: block;
+   width: 100%;
    height: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
    text-decoration: none;
-   color: gray;
+   color: white;
    font-weight: 500;
    font-size: 20px;
    background-color: inherit;
    transition: 1s;
+   pointer-events: auto;
 }
+
+
 
 .tokubetu{
    font-size: 30px;
@@ -143,6 +165,13 @@ body{
 hr{
    border-width: 1px 0px 0px 0px;
    border-color: gray;
+   border-style: solid;
+   height: 1px;
+}
+
+hr.s{
+   border-width: 2px, 0px, 0px, 0px;
+   border-color: #16a7e0;
    border-style: solid;
    height: 1px;
 }

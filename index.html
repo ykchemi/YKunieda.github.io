@@ -7,10 +7,20 @@
       <title>諏訪二葉高校　化学部　(非)公式WEBサイト</title>
    </head>
    <body>
+      <script type="text/javascript">
+         pass = window.prompt('pass');
+         if(pass == 'kagakukiso'){
+            window.alert('success!');
+         } else if (pass == Null){
+            window.history.back();
+         } else {
+            window.history.back();
+         }
+      </script>
       <div class="header" id="head">
          <div class="mainmenu">
             <ul class="nav-menu">
-               <li><a href="#head" class="tokubetu"><span>化学</span>部</a></li>
+               <li><a href="#head" class="hutuu">TOP</a></li>
                <li class="nyan"><a href="#about" class="hutuu"> About </a></li>
                <li class="nyan"><a href="#quest" class="hutuu"> Question </a></li>
                <li class="nyan"><a href="#experiment" class="hutuu"> Experiment </a></li>
@@ -18,16 +28,6 @@
          </div>
       </div>
       <div class="mainbox">
-         <script>
-            pass = window.prompt('pass');
-            if(pass == 'kagakukiso'){
-               window.alert('success!');
-            } else if (pass == Null){
-               window.history.back();
-            } else {
-               window.history.back();
-            }
-         </script>
          <div class="sub">
             <div class="title">
                <img src="./title.png" class="titleimage">
@@ -39,7 +39,7 @@
          </div>
          <div class="main">
             <h1 id="about">About</h1>
-            <hr>
+            <hr class="s">
             <h2 class="backim">
                Chemistry
                <br>Club
@@ -55,7 +55,7 @@
             </p>
 
             <h1 id="quest">Q & A</h1>
-            <hr>
+            <hr class="s">
             <h2 class="q">Q.</h2>
             <p>どこで活動をしていますか？</p>
             <h2 class="a">A.</h2>
@@ -64,7 +64,7 @@
             <h2 class="q">Q.</h2>
             <p>化学グランプリに参加したことはありますか？</p>
             <h2 class="a">A.</h2>
-            <p>多分あります</p>
+            <p>記録に残る限りありません。</p>
             <hr>
             <h2 class="q">Q.</h2>
             <p>入部する事で推薦入学において有利になりますか？</p>
@@ -72,7 +72,7 @@
             <p>ありません。</p>
 
             <h1 id="experiment">Experiment</h1>
-            <hr>
+            <hr class="s">
 
             <h2>テルミット反応 (Thermite)</h2>
             <h3>概要</h3>
